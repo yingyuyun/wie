@@ -1,0 +1,8 @@
+<!--pages/detail/detail.wxml-->
+<view>
+    <text> 详情页</text>
+      <view>
+          <view>{{singer.name}}</view>
+          <view>{{singer.age}}</view>
+      </view  >
+</view>

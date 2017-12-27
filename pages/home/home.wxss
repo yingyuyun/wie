@@ -1,0 +1,54 @@
+/* pages/home/home.wxss */
+.cover{
+  text-align:  center;
+}
+
+.title{
+  font-size:30px; 
+}
+.list-item{
+  display: flex;
+  flex-direction:row; 
+  background-color: #fff;
+  height: 40px;
+  margin-top: 2px;
+  text-align: center;
+  line-height: 40px
+}
+
+.list-item  .item-name{
+  flex: 1;
+}
+.list-item .item-age{
+  flex: 1;
+}
+.list-item .item-image{
+  flex: 1;
+}
+.item-image image{
+  width: 100%;
+  height: 100%;
+}
+page{
+  background-color: #eee;
+}
+.input-panel{
+  background-color: #fff;
+}
+.input-panel .input-name{
+  flex: 1;
+  padding: 10px;
+  border-bottom: solid 1px #eee;
+}
+.input-panel  .input-age{
+  flex:1 ;
+  padding: 10px;
+}
+.input-panel .input input{
+  height: 100%;
+  font-size:24px; 
+}
+
+.input-panel .btn{
+  flex: 1;
+}

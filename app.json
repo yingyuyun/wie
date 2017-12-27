@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/todo/todo",
+    "pages/home/home",
+    "pages/detail/detail",
+    "pages/weixin/weixin"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+      "boderStyle":"black",
+      "color": "#000",
+      "selectedColor": "blue",
+    "list": [
+      {
+        "pagePath": "pages/weixin/weixin",
+        "text": "微信",
+        "iconPath": "pages/publick/1.png",
+        "selectedIconPath": "pages/publick/a.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "index",
+        "iconPath": "pages/publick/1.png",
+        "selectedIconPath": "pages/publick/a.png"
+      },
+      {
+      "pagePath": "pages/home/home",
+      "text": "home",
+      "iconPath": "pages/publick/2.png",
+      "selectedIconPath": "pages/publick/b.png"
+      },
+      {
+        "pagePath": "pages/todo/todo",
+        "text": "todo",
+        "iconPath": "pages/publick/3.png",
+        "selectedIconPath": "pages/publick/c.png"
+      }
+    ]
+  }
+}
